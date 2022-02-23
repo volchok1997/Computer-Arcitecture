@@ -1,0 +1,23 @@
+[Files List]
+C:\Aldec\Active-HDL-Student-Edition\vlib\std/src/standard.vhd=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\std/src/textio.vhd=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/std_logic_1164.vhdl=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/std_logic_1164-body.vhdl=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/numeric_std.vhdl=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/numeric_std-body.vhdl=S
+C:\Aldec\Active-HDL-Student-Edition\vlib\ieee/src/textio.vhd=S
+E:\POJECT 345\345_final_project\intel_nope/src/log_pac.vhd=S
+E:\POJECT 345\345_final_project\intel_nope/src/r4_alu.vhd=S
+E:\POJECT 345\345_final_project\intel_nope/src/r3_alu.vhd=S
+E:\POJECT 345\345_final_project\intel_nope/src/ALU.vhd=S
+E:\POJECT 345\345_final_project\intel_nope/src/load_Imm.vhd=S
+E:\POJECT 345\345_final_project\intel_nope/src/EX.vhd=S
+E:\POJECT 345\345_final_project\intel_nope/src/id_ex.vhd=S
+E:\POJECT 345\345_final_project\intel_nope/src/forward_unit.vhd=S
+E:\POJECT 345\345_final_project\intel_nope/src/register_file.vhd=S
+E:\POJECT 345\345_final_project\intel_nope/src/control_unit.vhd=S
+E:\POJECT 345\345_final_project\intel_nope/src/if_id.vhd=S
+E:\POJECT 345\345_final_project\intel_nope/src/id_ex_datapath.vhd=S
+E:\POJECT 345\345_final_project\intel_nope/src/instruction_buffer.vhd=S
+E:\POJECT 345\345_final_project\intel_nope/src/cpu.vhd=S
+E:\POJECT 345\345_final_project\intel_nope/src/cpu_tb.vhd=S

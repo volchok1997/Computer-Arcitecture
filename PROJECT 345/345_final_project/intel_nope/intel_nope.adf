@@ -1,0 +1,112 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+
+[Configurations]
+compile=intel_nope
+
+[Library]
+intel_nope=.\intel_nope\intel_nope.lib
+
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+fileopenfolder=E:\ESE382\Lab09
+
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+
+[LocalVhdlSets]
+CompileWithDebug=0
+
+[$LibMap$]
+intel_nope=.
+Active_lib=
+
+[SpecTracer]
+WindowVisible=0
+
+[HierarchyViewer]
+HierarchyInformation= 
+ShowHide=ShowTopLevel
+Selected=
+
+[Files]
+/load_Imm.vhd=-1
+/load_Imm_tb.vhd=-1
+/r4_alu.vhd=-1
+/r4test.asdb=-1
+/r4test.awc=-1
+/r3_alu.vhd=-1
+/r3.asdb=-1
+/r3.awc=-1
+/ALU.vhd=-1
+/EX.vhd=-1
+/EX_tb.vhd=-1
+/id_ex.vhd=-1
+/if_id.vhd=-1
+/register_file.vhd=-1
+/control_unit.vhd=-1
+/control_unit_tb.vhd=-1
+/forward_unit.vhd=-1
+/id_ex_datapath.vhd=-1
+/id_ex_datapath_tb.vhd=-1
+/instruction_buffer.vhd=-1
+/cpu.vhd=-1
+/cpu_tb.vhd=-1
+/log_pac.vhd=-1
+/id_ex_datapath.bde=-1
+/cpu.bde=-1
+/ALU.bde=-1
+/EX.bde=-1
+/cpu_t.asdb=-1
+/cpu_t.awc=-1
+
+[Files.Data]
+.\src\load_Imm.vhd=VHDL Source Code
+.\src\load_Imm_tb.vhd=VHDL Source Code
+.\src\r4_alu.vhd=VHDL Source Code
+.\src\r4test.asdb=Accelerated Waveform File
+.\src\r4test.awc=Accelerated Waveform Configuration
+.\src\r3_alu.vhd=VHDL Source Code
+.\src\r3.asdb=Accelerated Waveform File
+.\src\r3.awc=Accelerated Waveform Configuration
+.\src\ALU.vhd=VHDL Source Code
+.\src\EX.vhd=VHDL Source Code
+.\src\EX_tb.vhd=VHDL Source Code
+.\src\id_ex.vhd=VHDL Source Code
+.\src\if_id.vhd=VHDL Source Code
+.\src\register_file.vhd=VHDL Source Code
+.\src\control_unit.vhd=VHDL Source Code
+.\src\control_unit_tb.vhd=VHDL Source Code
+.\src\forward_unit.vhd=VHDL Source Code
+.\src\id_ex_datapath.vhd=VHDL Source Code
+.\src\id_ex_datapath_tb.vhd=VHDL Source Code
+.\src\instruction_buffer.vhd=VHDL Source Code
+.\src\cpu.vhd=VHDL Source Code
+.\src\cpu_tb.vhd=VHDL Source Code
+.\src\log_pac.vhd=VHDL Source Code
+.\src\id_ex_datapath.bde=Block Diagram
+.\src\cpu.bde=Block Diagram
+.\src\ALU.bde=Block Diagram
+.\src\EX.bde=Block Diagram
+.\src\cpu_t.asdb=Accelerated Waveform File
+.\src\cpu_t.awc=Accelerated Waveform Configuration
+
+[file_out:/ALU.bde]
+/..\compile\ALU.vhd=-1
+

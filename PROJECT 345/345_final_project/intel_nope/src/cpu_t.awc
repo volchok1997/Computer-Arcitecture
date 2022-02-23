@@ -1,0 +1,50 @@
+<config>
+    <version>
+        2.1
+    </version>
+    <comment>
+    </comment>
+    <databases>
+        <database id="">*virtual*</database>
+        <database id="9cb6d00a9cb5a1da075c19c038020400">cpu_t.asdb</database>
+    </databases>
+    <signallists>
+        <signallist id="0">
+        <signal>/cpu_tb/clk</signal>
+        <signal>/cpu_tb/rst</signal>
+        <signal>/cpu_tb/tst</signal>
+        <signal>/cpu_tb/uut/instructions</signal>
+        <signal>/cpu_tb/uut/inst_buff/pc</signal>
+        <signal>/cpu_tb/uut/datapath/register_file/RF</signal>
+        <signal>/cpu_tb/uut/datapath/EX/result</signal>
+        <signal>/cpu_tb/uut/datapath/if_id/Iinst</signal>
+        <signal>/cpu_tb/uut/datapath/if_id/inst</signal>
+        <signal>/cpu_tb/uut/datapath/if_id/clk</signal>
+        <signal>/cpu_tb/uut/datapath/if_id/rst</signal>
+        </signallist>
+    </signallists>
+    <prefbases>
+        <prefbase id="0" >
+            <pref name="End Time" value="735483" />
+            <pref name="Start Time" value="0" />
+        </prefbase>
+    </prefbases>
+    <bookmarkbases>
+        <bookmarks id="0">
+        </bookmarks>
+    </bookmarkbases>
+    <cursorbases>
+        <cursors id="0">
+            <cursor value="234145" label="Cursor 1" locked="0" />
+        </cursors>
+    </cursorbases>
+    <measurementbases>
+    </measurementbases>
+    <commentbases>
+        <comments id="0">
+        </comments>
+    </commentbases>
+    <views>
+        <view signallist="0" propertybase="0" prefbase="0" type="1" bookmarks="0" cursors="0" measurements="-1" comments="-1" />
+    </views>
+</config>

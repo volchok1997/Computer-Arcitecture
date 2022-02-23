@@ -1,0 +1,511 @@
+SCHM0106
+
+HEADER
+{
+ FREEID 46
+ VARIABLES
+ {
+  #ARCHITECTURE="omg_FINALLLLLYYYYY"
+  #BLOCKTABLE_FILE="#HDL2DIAGRAM.bde"
+  #DEFAULT_RANGE0="<range<index=\"0\"><name=\"instructions\"><left=\"24\"><direction=\"downto\"><right=\"0\"><initial_value=\"\"><delay=\"\">>"
+  #ENTITY="cpu"
+  #LANGUAGE="VHDL"
+  #RANGE_RESOLUTION0="<range<index=\"0\"><name=\"instructions\"><left=\"24\"><direction=\"downto\"><right=\"0\"><initial_value=\"\"><delay=\"\">>"
+  AUTHOR="ayman"
+  COMPANY="stonybrook"
+  CREATIONDATE="12/5/2018"
+  SOURCE=".\\..\\src\\cpu.vhd"
+ }
+ SYMBOL "#default" "id_ex_datapath" "id_ex_datapath"
+ {
+  HEADER
+  {
+   VARIABLES
+   {
+    #CUSTOM_NAME=""
+    #DESCRIPTION=""
+    #HDL_ENTRIES=
+"library IEEE;\n"+
+"use ieee.std_logic_1164.all;"
+    #LANGUAGE="VHDL"
+    #MODIFIED="1544012031"
+    #NAME="id_ex_datapath"
+    #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="97f9aabf-d306-4b43-a95c-a2906403dcab"
+   }
+  }
+  PAGE "" 
+  {
+   PAGEHEADER
+   {
+    RECT (0,0,140,160)
+    FREEID 8
+   }
+   
+   BODY
+   {
+    RECT  1, -1, 0
+    {
+     VARIABLES
+     {
+      #OUTLINE_FILLING="1"
+     }
+     AREA (20,0,140,160)
+    }
+    TEXT  3, 0, 0
+    {
+     TEXT "$#NAME"
+     RECT (25,28,50,52)
+     ALIGN 4
+     MARGINS (1,1)
+     PARENT 2
+    }
+    TEXT  5, 0, 0
+    {
+     TEXT "$#NAME"
+     RECT (25,68,48,92)
+     ALIGN 4
+     MARGINS (1,1)
+     PARENT 4
+    }
+    TEXT  7, 0, 0
+    {
+     TEXT "$#NAME"
+     RECT (25,108,108,132)
+     ALIGN 4
+     MARGINS (1,1)
+     PARENT 6
+    }
+    PIN  2, 0, 0
+    {
+     COORD (0,40)
+     VARIABLES
+     {
+      #DIRECTION="IN"
+      #LENGTH="20"
+      #NAME="clk"
+      #SIDE="left"
+      #VHDL_TYPE="STD_LOGIC"
+     }
+     LINE  1, 0, 0
+     {
+      POINTS ( (0,0), (20,0) )
+     }
+    }
+    PIN  4, 0, 0
+    {
+     COORD (0,80)
+     VARIABLES
+     {
+      #DIRECTION="IN"
+      #LENGTH="20"
+      #NAME="rst"
+      #SIDE="left"
+      #VHDL_TYPE="STD_LOGIC"
+     }
+     LINE  1, 0, 0
+     {
+      POINTS ( (0,0), (20,0) )
+     }
+    }
+    PIN  6, 0, 0
+    {
+     COORD (0,120)
+     VARIABLES
+     {
+      #DIRECTION="IN"
+      #LENGTH="20"
+      #NAME="Inst(24:0)"
+      #SIDE="left"
+      #VHDL_TYPE="STD_LOGIC_VECTOR"
+     }
+     LINE  1, 0, 0
+     {
+      POINTS ( (0,0), (20,0) )
+     }
+    }
+   }
+  }
+ }
+ SYMBOL "#default" "instruction_buffer" "instruction_buffer"
+ {
+  HEADER
+  {
+   VARIABLES
+   {
+    #CUSTOM_NAME=""
+    #DESCRIPTION=""
+    #HDL_ENTRIES=
+"library IEEE;\n"+
+"use ieee.std_logic_1164.all;"
+    #LANGUAGE="VHDL"
+    #MODIFIED="1544012031"
+    #NAME="instruction_buffer"
+    #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="42ed003c-85c9-4a12-85bd-4b0f7b09b323"
+   }
+  }
+  PAGE "" 
+  {
+   PAGEHEADER
+   {
+    RECT (0,0,180,120)
+    FREEID 8
+   }
+   
+   BODY
+   {
+    RECT  1, -1, 0
+    {
+     VARIABLES
+     {
+      #OUTLINE_FILLING="1"
+     }
+     AREA (20,0,160,120)
+    }
+    TEXT  3, 0, 0
+    {
+     TEXT "$#NAME"
+     RECT (25,28,50,52)
+     ALIGN 4
+     MARGINS (1,1)
+     PARENT 2
+    }
+    TEXT  5, 0, 0
+    {
+     TEXT "$#NAME"
+     RECT (25,68,48,92)
+     ALIGN 4
+     MARGINS (1,1)
+     PARENT 4
+    }
+    TEXT  7, 0, 0
+    {
+     TEXT "$#NAME"
+     RECT (74,28,155,52)
+     ALIGN 4
+     MARGINS (1,1)
+     PARENT 6
+    }
+    PIN  2, 0, 0
+    {
+     COORD (0,40)
+     VARIABLES
+     {
+      #DIRECTION="IN"
+      #LENGTH="20"
+      #NAME="clk"
+      #SIDE="left"
+      #VHDL_TYPE="STD_LOGIC"
+     }
+     LINE  1, 0, 0
+     {
+      POINTS ( (0,0), (20,0) )
+     }
+    }
+    PIN  4, 0, 0
+    {
+     COORD (0,80)
+     VARIABLES
+     {
+      #DIRECTION="IN"
+      #LENGTH="20"
+      #NAME="rst"
+      #SIDE="left"
+      #VHDL_TYPE="STD_LOGIC"
+     }
+     LINE  1, 0, 0
+     {
+      POINTS ( (0,0), (20,0) )
+     }
+    }
+    PIN  6, 0, 0
+    {
+     COORD (180,40)
+     VARIABLES
+     {
+      #DIRECTION="OUT"
+      #LENGTH="20"
+      #NAME="inst(24:0)"
+      #SIDE="right"
+      #VHDL_TYPE="STD_LOGIC_VECTOR"
+     }
+     LINE  1, 0, 0
+     {
+      POINTS ( (0,0), (-20,0) )
+     }
+    }
+   }
+  }
+ }
+}
+
+PAGE ""
+{
+ PAGEHEADER
+ {
+  MARGINS (200,200,200,200)
+  RECT (0,0,0,0)
+ }
+ 
+ BODY
+ {
+  VHDLDESIGNUNITHDR  1, 0, 0
+  {
+   LABEL "Design Unit Header"
+   TEXT 
+"library ieee;\n"+
+"use ieee.std_logic_1164.all;\n"+
+"use ieee.NUMERIC_STD.all;"
+   RECT (220,260,620,472)
+   MARGINS (20,20)
+   MULTILINE
+   SYNTAXCOLORED
+   SHOWLABEL
+   SHOWTEXT
+   CORNER 10
+  }
+  INSTANCE  2, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="id_ex_datapath"
+    #CUSTOM_NAME=""
+    #LIBRARY="#default"
+    #REFERENCE="datapath"
+    #SYMBOL="id_ex_datapath"
+    #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="97f9aabf-d306-4b43-a95c-a2906403dcab"
+   }
+   COORD (1220,240)
+   VERTEXES ( (6,16), (4,18), (2,21) )
+  }
+  INSTANCE  3, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Input"
+    #CUSTOM_NAME=""
+    #LIBRARY="#terminals"
+    #REFERENCE="clk"
+    #SYMBOL="Input"
+    #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   COORD (760,360)
+   VERTEXES ( (2,30) )
+  }
+  INSTANCE  4, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="instruction_buffer"
+    #CUSTOM_NAME=""
+    #LIBRARY="#default"
+    #REFERENCE="inst_buff"
+    #SYMBOL="instruction_buffer"
+    #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="42ed003c-85c9-4a12-85bd-4b0f7b09b323"
+   }
+   COORD (920,320)
+   VERTEXES ( (6,15), (4,27), (2,33) )
+  }
+  INSTANCE  5, 0, 0
+  {
+   VARIABLES
+   {
+    #COMPONENT="Input"
+    #CUSTOM_NAME=""
+    #LIBRARY="#terminals"
+    #REFERENCE="rst"
+    #SYMBOL="Input"
+    #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+    #VHDL_TYPE="STD_LOGIC"
+   }
+   COORD (760,400)
+   VERTEXES ( (2,24) )
+  }
+  TEXT  6, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (1220,240,1220,240)
+   ALIGN 8
+   PARENT 2
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#COMPONENT"
+   RECT (1220,400,1220,400)
+   PARENT 2
+  }
+  TEXT  8, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (708,360,708,360)
+   ALIGN 6
+   PARENT 3
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (920,320,920,320)
+   ALIGN 8
+   PARENT 4
+  }
+  TEXT  10, 0, 0
+  {
+   TEXT "$#COMPONENT"
+   RECT (920,440,920,440)
+   PARENT 4
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#REFERENCE"
+   RECT (708,400,708,400)
+   ALIGN 6
+   PARENT 5
+  }
+  NET BUS  12, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="instructions(24:0)"
+    #VHDL_TYPE="STD_LOGIC_VECTOR"
+   }
+  }
+  NET WIRE  13, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="clk"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+  }
+  NET WIRE  14, 0, 0
+  {
+   VARIABLES
+   {
+    #NAME="rst"
+    #VHDL_TYPE="STD_LOGIC"
+   }
+  }
+  VTX  15, 0, 0
+  {
+   COORD (1100,360)
+  }
+  VTX  16, 0, 0
+  {
+   COORD (1220,360)
+  }
+  BUS  17, 0, 0
+  {
+   NET 12
+   VTX 15, 16
+  }
+  VTX  18, 0, 0
+  {
+   COORD (1220,320)
+  }
+  VTX  19, 0, 0
+  {
+   COORD (1180,320)
+  }
+  WIRE  20, 0, 0
+  {
+   NET 14
+   VTX 18, 19
+  }
+  VTX  21, 0, 0
+  {
+   COORD (1220,280)
+  }
+  VTX  22, 0, 0
+  {
+   COORD (1200,280)
+  }
+  WIRE  23, 0, 0
+  {
+   NET 13
+   VTX 21, 22
+  }
+  VTX  24, 0, 0
+  {
+   COORD (760,400)
+  }
+  WIRE  26, 0, 0
+  {
+   NET 14
+   VTX 24, 28
+  }
+  VTX  27, 0, 0
+  {
+   COORD (920,400)
+  }
+  VTX  28, 0, 0
+  {
+   COORD (880,400)
+  }
+  WIRE  29, 0, 0
+  {
+   NET 14
+   VTX 27, 28
+  }
+  VTX  30, 0, 0
+  {
+   COORD (760,360)
+  }
+  WIRE  32, 0, 0
+  {
+   NET 13
+   VTX 30, 34
+  }
+  VTX  33, 0, 0
+  {
+   COORD (920,360)
+  }
+  VTX  34, 0, 0
+  {
+   COORD (900,360)
+  }
+  WIRE  35, 0, 0
+  {
+   NET 13
+   VTX 33, 34
+  }
+  VTX  36, 0, 0
+  {
+   COORD (900,280)
+  }
+  VTX  37, 0, 0
+  {
+   COORD (1180,300)
+  }
+  VTX  38, 0, 0
+  {
+   COORD (880,300)
+  }
+  WIRE  39, 0, 0
+  {
+   NET 13
+   VTX 22, 36
+  }
+  WIRE  40, 0, 0
+  {
+   NET 14
+   VTX 37, 38
+  }
+  WIRE  41, 0, 0
+  {
+   NET 13
+   VTX 36, 34
+  }
+  WIRE  43, 0, 0
+  {
+   NET 14
+   VTX 37, 19
+  }
+  WIRE  44, 0, 0
+  {
+   NET 14
+   VTX 38, 28
+  }
+ }
+ 
+}
+

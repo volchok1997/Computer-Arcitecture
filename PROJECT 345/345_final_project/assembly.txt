@@ -1,0 +1,7 @@
+li 6 0 65535
+li 6 1 32767
+li 5 0 32767
+mal 5 5 6 7
+popcnth 0 7 8
+clz 0 8 9
+shlhi 2 9 10

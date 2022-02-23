@@ -1,0 +1,6 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: E:\POJECT 345\345_final_project\intel_nope\src\id_ex.vhd" 
+ERROR COMP96_0016: "Design unit declaration expected." "E:\POJECT 345\345_final_project\intel_nope\src\id_ex.vhd" 1 1
+MESSAGE "Compile Entity "id_ex"" 
+MESSAGE "Compile Architecture "plr" of Entity "id_ex"" 
+FAILURE "Compile failure 1 Errors 0 Warnings  Analysis time :  0.1 [s]" 
